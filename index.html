@@ -57,7 +57,7 @@
     }
     .card img {
       width: 120px;
-      height: auto;
+      height: 120px;
       object-fit: contain;
       border-radius: 8px;
       margin-bottom: 1rem;
@@ -85,13 +85,21 @@
       padding: 1rem;
       margin-top: 2rem;
     }
+      @media (max-width: 600px) {
+      .bni-logo img {
+        width: 50px !important;
+      }
+      .bni-logo span {
+        font-size: 0.7rem !important;
+      }
+    }
   </style>
 </head>
 <body>
   <header>
     <img src="https://i.imgur.com/16UfgHy.png" alt="Dirty Hands Logo">
     <p>Skilled Trades. Trusted Hands.</p>
-    <div style="position: absolute; top: 20px; right: 20px; text-align: center;">
+    <div class="bni-logo" style="position: absolute; top: 20px; right: 20px; text-align: center;">
   <a href="https://www.facebook.com/BNIEagles" target="_blank">
     <img src="https://i.imgur.com/n5bf7rf.png" alt="BNI Eagles Logo" style="width: 80px; height: auto; display: block; margin: 0 auto;">
     <span style="color: white; font-size: 0.8rem; display: block; margin-top: 4px;">Proud Member of BNI Eagles</span>
@@ -171,6 +179,27 @@
         <a href="https://emgfloorremoval.com/" target="_blank">Visit Website</a>
         <a href="https://www.facebook.com/emgfloorremoval/" target="_blank">Facebook Page</a>
         <a href="https://g.co/kgs/GCzdwLA" target="_blank">Google Reviews</a>
+      </div>
+    </div>
+
+    <!-- David - Mosquito Man -->
+    <div class="card">
+      <img src="https://i.imgur.com/d0UZdlq.png" alt="Mosquito Man Logo" />
+      <h3>David - Mosquito Man<br><small>Mosquito Control</small></h3>
+      <div class="buttons">
+        <a href="https://mosquitomanllc.com/" target="_blank">Visit Website</a>
+        <a href="https://www.facebook.com/people/Mosquito-Man-LLC/100093647056549/" target="_blank">Facebook Page</a>
+        <a href="https://g.co/kgs/QWUC8iE" target="_blank">Google Reviews</a>
+      </div>
+    </div>
+
+    <!-- Freddy - Expert Detail Auto Spa -->
+    <div class="card">
+      <img src="https://i.imgur.com/OiDEUbX.png" alt="Expert Detail Auto Spa Logo" />
+      <h3>Freddy - Expert Detail Auto Spa<br><small>Boat & Auto Detailing</small></h3>
+      <div class="buttons">
+        <a href="https://www.facebook.com/ExpertDetailAuto" target="_blank">Facebook Page</a>
+        <a href="https://g.co/kgs/i8YvkjB" target="_blank">Google Reviews</a>
       </div>
     </div>
 
